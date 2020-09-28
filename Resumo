@@ -1,0 +1,30 @@
+Bloco de Notas: 
+Temos diversas opçoes de armazenamento no android, entre essas temos o Shared preferences
+
+Como salvar dados em SharedPreferences:
+
+Usando SharedPreferences:
+
+SharedPreferences sharedPreferences =
+
+getAplicationContext.getSharedPreferences(nome do pacote,Context mode);
+
+No bloco de notas foi utilizado:
+
+Interface:
+
+ListView;
+
+EditText;
+
+Button.
+
+Aplicação:
+
+ArraList;
+
+ArrayAdapter;
+
+SharedPreferences.
+
+Salvar um elemento especifico usa - sharedPreferences.edit().putTipo(id/chave, valor).apply();
